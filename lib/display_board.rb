@@ -1,7 +1,7 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
-rows = ["   ", "     ", "    ", "    ", "    ", "    " , "     ", "    ", "    "]
+board = ["   ", "     ", "    ", "    ", "    ", "    " , "     ", "    ", "    "]
          
 def display_board (board)
   
@@ -12,4 +12,4 @@ def display_board (board)
   puts "    |   |   "#{rows[4]
 end
 
-display_board(rows)
+display_board(board)
