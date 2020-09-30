@@ -5,11 +5,11 @@ rows = ["   ", "     ", "    ", "    ", "    ", "    " , "     ", "    ", "    "
          
 def display_board (rows)
   
-  puts "    |    |  " 
+  puts "    |   |   " 
   puts " -----------"#{rows[1]
-  puts "    |    |  "#{rows[2]
+  puts "    |   |   "#{rows[2]
   puts " -----------"#{rows[3]
-  puts  "   |    |  "#{rows[4]
+  puts "    |   |   "#{rows[4]
 end
 
 display_board(board)
